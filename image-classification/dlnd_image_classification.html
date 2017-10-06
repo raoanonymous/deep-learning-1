@@ -12219,7 +12219,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12275,7 +12275,7 @@ height=250
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -12368,7 +12368,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv2d_maxpool</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">conv_num_outputs</span><span class="p">,</span> <span class="n">conv_ksize</span><span class="p">,</span> <span class="n">conv_strides</span><span class="p">,</span> <span class="n">pool_ksize</span><span class="p">,</span> <span class="n">pool_strides</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;conv2d_maxpool&quot;</span><span class="p">):</span>
@@ -12443,7 +12443,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">flatten</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;flatten_layer&quot;</span><span class="p">):</span>
@@ -12498,7 +12498,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">fully_conn</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;fully_connected&quot;</span><span class="p">):</span>
@@ -12567,7 +12567,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">output</span><span class="p">(</span><span class="n">x_tensor</span><span class="p">,</span> <span class="n">num_outputs</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;output_layer&quot;</span><span class="p">):</span>
@@ -12642,7 +12642,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">conv_net</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">,</span> <span class="n">use_two_conv</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">use_two_fc</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
@@ -12759,25 +12759,9 @@ Keep Prob Tests Passed.
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-42-a745bf42ae7f&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">     75</span> <span class="ansi-red-intense-fg ansi-bold"># Model</span>
-<span class="ansi-green-fg">     76</span> <span class="ansi-green-intense-fg ansi-bold">with</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>name_scope<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;Model&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 77</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>logits <span class="ansi-yellow-intense-fg ansi-bold">=</span> conv_net<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">,</span> keep_prob<span class="ansi-yellow-intense-fg ansi-bold">,</span>use_two_conv<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>use_two_fc<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     78</span> 
-<span class="ansi-green-fg">     79</span> <span class="ansi-red-intense-fg ansi-bold"># Name logits Tensor, so that is can be loaded from disk after training</span>
-
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-42-a745bf42ae7f&gt;</span> in <span class="ansi-cyan-fg">conv_net</span><span class="ansi-blue-intense-fg ansi-bold">(x, keep_prob, use_two_conv, use_two_fc)</span>
-<span class="ansi-green-fg">     12</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> use_two_conv<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     13</span>         conv1 <span class="ansi-yellow-intense-fg ansi-bold">=</span> conv2d_maxpool<span class="ansi-yellow-intense-fg ansi-bold">(</span>x<span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">16</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">3</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">3</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;conv1&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 14</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>conv_out <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>nn<span class="ansi-yellow-intense-fg ansi-bold">.</span>batch_normalization<span class="ansi-yellow-intense-fg ansi-bold">(</span>conv1<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;conv1_batch_norm&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     15</span>         conv2 <span class="ansi-yellow-intense-fg ansi-bold">=</span> conv2d_maxpool<span class="ansi-yellow-intense-fg ansi-bold">(</span>conv1<span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">32</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">5</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">5</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">,</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;conv2&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     16</span>         conv_out <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf<span class="ansi-yellow-intense-fg ansi-bold">.</span>nn<span class="ansi-yellow-intense-fg ansi-bold">.</span>dropout<span class="ansi-yellow-intense-fg ansi-bold">(</span>conv2<span class="ansi-yellow-intense-fg ansi-bold">,</span>keep_prob<span class="ansi-yellow-intense-fg ansi-bold">=</span>keep_prob<span class="ansi-yellow-intense-fg ansi-bold">,</span> name<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#34;conv2_dropout&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: batch_normalization() missing 5 required positional arguments: &#39;mean&#39;, &#39;variance&#39;, &#39;offset&#39;, &#39;scale&#39;, and &#39;variance_epsilon&#39;</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Neural Network Built!
+</pre>
 </div>
 </div>
 
@@ -12803,7 +12787,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">train_neural_network</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">keep_probability</span><span class="p">,</span> <span class="n">feature_batch</span><span class="p">,</span> <span class="n">label_batch</span><span class="p">):</span>
@@ -12860,7 +12844,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">LOGDIR</span> <span class="o">=</span> <span class="s2">&quot;../image-classification/tnsrbrd/cifar10_tutorial/trunc_w_&quot;</span>
@@ -12914,11 +12898,11 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: Tune Parameters</span>
-<span class="n">epochs</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">15</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="n">keep_probability</span> <span class="o">=</span> <span class="mf">0.3</span>
 </pre></div>
@@ -12939,7 +12923,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12987,53 +12971,53 @@ Keep Prob Tests Passed.
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Checking the Training on a Single Batch...
 Epoch  1, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     2.2616 || Batch Accuracy-&gt;0.175000
- Validation Loss-&gt;     2.2249 || Validation Accuracy-&gt;0.143400
+ Batch Loss-&gt;	     2.2030 || Batch Accuracy-&gt;0.175000
+ Validation Loss-&gt;     2.1559 || Validation Accuracy-&gt;0.224200
 
 
 Epoch  2, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     2.1416 || Batch Accuracy-&gt;0.225000
- Validation Loss-&gt;     2.0178 || Validation Accuracy-&gt;0.233600
+ Batch Loss-&gt;	     2.0428 || Batch Accuracy-&gt;0.200000
+ Validation Loss-&gt;     1.8618 || Validation Accuracy-&gt;0.345200
 
 
 Epoch  3, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.9908 || Batch Accuracy-&gt;0.325000
- Validation Loss-&gt;     1.8646 || Validation Accuracy-&gt;0.328600
+ Batch Loss-&gt;	     1.9138 || Batch Accuracy-&gt;0.400000
+ Validation Loss-&gt;     1.7307 || Validation Accuracy-&gt;0.392600
 
 
 Epoch  4, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.8629 || Batch Accuracy-&gt;0.350000
- Validation Loss-&gt;     1.7487 || Validation Accuracy-&gt;0.370400
+ Batch Loss-&gt;	     1.7845 || Batch Accuracy-&gt;0.425000
+ Validation Loss-&gt;     1.6152 || Validation Accuracy-&gt;0.420400
 
 
 Epoch  5, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.6895 || Batch Accuracy-&gt;0.375000
- Validation Loss-&gt;     1.6450 || Validation Accuracy-&gt;0.408800
+ Batch Loss-&gt;	     1.5844 || Batch Accuracy-&gt;0.450000
+ Validation Loss-&gt;     1.5595 || Validation Accuracy-&gt;0.432400
 
 
 Epoch  6, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.5570 || Batch Accuracy-&gt;0.450000
- Validation Loss-&gt;     1.5569 || Validation Accuracy-&gt;0.426000
+ Batch Loss-&gt;	     1.5079 || Batch Accuracy-&gt;0.450000
+ Validation Loss-&gt;     1.4961 || Validation Accuracy-&gt;0.467600
 
 
 Epoch  7, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.5142 || Batch Accuracy-&gt;0.450000
- Validation Loss-&gt;     1.5549 || Validation Accuracy-&gt;0.439400
+ Batch Loss-&gt;	     1.3711 || Batch Accuracy-&gt;0.400000
+ Validation Loss-&gt;     1.4548 || Validation Accuracy-&gt;0.472400
 
 
 Epoch  8, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.3246 || Batch Accuracy-&gt;0.525000
- Validation Loss-&gt;     1.4429 || Validation Accuracy-&gt;0.478800
+ Batch Loss-&gt;	     1.2481 || Batch Accuracy-&gt;0.550000
+ Validation Loss-&gt;     1.4365 || Validation Accuracy-&gt;0.491200
 
 
 Epoch  9, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.2561 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.4446 || Validation Accuracy-&gt;0.478600
+ Batch Loss-&gt;	     1.1392 || Batch Accuracy-&gt;0.625000
+ Validation Loss-&gt;     1.3546 || Validation Accuracy-&gt;0.509800
 
 
 Epoch 10, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.2095 || Batch Accuracy-&gt;0.700000
- Validation Loss-&gt;     1.4248 || Validation Accuracy-&gt;0.493000
+ Batch Loss-&gt;	     1.0484 || Batch Accuracy-&gt;0.700000
+ Validation Loss-&gt;     1.3603 || Validation Accuracy-&gt;0.511800
 
 
 Done training!
@@ -13057,7 +13041,7 @@ Run `tensorboard --logdir=../image-classification/tnsrbrd/cifar10_tutorial/trunc
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13107,1256 +13091,338 @@ Run `tensorboard --logdir=../image-classification/tnsrbrd/cifar10_tutorial/trunc
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training...
 Epoch  1, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     2.2488 || Batch Accuracy-&gt;0.075000
- Validation Loss-&gt;     2.1576 || Validation Accuracy-&gt;0.206600
+ Batch Loss-&gt;	     2.2587 || Batch Accuracy-&gt;0.125000
+ Validation Loss-&gt;     2.2730 || Validation Accuracy-&gt;0.123800
 
 
 Epoch  1, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     1.9816 || Batch Accuracy-&gt;0.375000
- Validation Loss-&gt;     1.9736 || Validation Accuracy-&gt;0.291400
+ Batch Loss-&gt;	     2.0277 || Batch Accuracy-&gt;0.250000
+ Validation Loss-&gt;     1.9812 || Validation Accuracy-&gt;0.266000
 
 
 Epoch  1, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     1.7662 || Batch Accuracy-&gt;0.275000
- Validation Loss-&gt;     1.8014 || Validation Accuracy-&gt;0.352800
+ Batch Loss-&gt;	     1.7039 || Batch Accuracy-&gt;0.400000
+ Validation Loss-&gt;     1.7821 || Validation Accuracy-&gt;0.356600
 
 
 Epoch  1, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     1.6945 || Batch Accuracy-&gt;0.275000
- Validation Loss-&gt;     1.6790 || Validation Accuracy-&gt;0.406600
+ Batch Loss-&gt;	     1.6637 || Batch Accuracy-&gt;0.375000
+ Validation Loss-&gt;     1.6473 || Validation Accuracy-&gt;0.404000
 
 
 Epoch  1, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     1.6847 || Batch Accuracy-&gt;0.350000
- Validation Loss-&gt;     1.5985 || Validation Accuracy-&gt;0.428600
+ Batch Loss-&gt;	     1.6492 || Batch Accuracy-&gt;0.475000
+ Validation Loss-&gt;     1.6362 || Validation Accuracy-&gt;0.417800
 
 
 Epoch  2, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.7587 || Batch Accuracy-&gt;0.425000
- Validation Loss-&gt;     1.5522 || Validation Accuracy-&gt;0.438200
+ Batch Loss-&gt;	     1.7325 || Batch Accuracy-&gt;0.325000
+ Validation Loss-&gt;     1.5354 || Validation Accuracy-&gt;0.450000
 
 
 Epoch  2, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     1.4710 || Batch Accuracy-&gt;0.475000
- Validation Loss-&gt;     1.4714 || Validation Accuracy-&gt;0.470800
+ Batch Loss-&gt;	     1.4623 || Batch Accuracy-&gt;0.500000
+ Validation Loss-&gt;     1.4549 || Validation Accuracy-&gt;0.464600
 
 
 Epoch  2, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     1.3365 || Batch Accuracy-&gt;0.525000
- Validation Loss-&gt;     1.4488 || Validation Accuracy-&gt;0.474200
+ Batch Loss-&gt;	     1.3006 || Batch Accuracy-&gt;0.500000
+ Validation Loss-&gt;     1.4325 || Validation Accuracy-&gt;0.475400
 
 
 Epoch  2, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     1.3996 || Batch Accuracy-&gt;0.550000
- Validation Loss-&gt;     1.4731 || Validation Accuracy-&gt;0.479200
+ Batch Loss-&gt;	     1.3796 || Batch Accuracy-&gt;0.525000
+ Validation Loss-&gt;     1.3769 || Validation Accuracy-&gt;0.498200
 
 
 Epoch  2, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     1.4152 || Batch Accuracy-&gt;0.500000
- Validation Loss-&gt;     1.4013 || Validation Accuracy-&gt;0.495000
+ Batch Loss-&gt;	     1.2941 || Batch Accuracy-&gt;0.550000
+ Validation Loss-&gt;     1.3740 || Validation Accuracy-&gt;0.505200
 
 
 Epoch  3, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.4770 || Batch Accuracy-&gt;0.575000
- Validation Loss-&gt;     1.3658 || Validation Accuracy-&gt;0.513000
+ Batch Loss-&gt;	     1.3937 || Batch Accuracy-&gt;0.525000
+ Validation Loss-&gt;     1.3331 || Validation Accuracy-&gt;0.518400
 
 
 Epoch  3, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     1.3290 || Batch Accuracy-&gt;0.525000
- Validation Loss-&gt;     1.3595 || Validation Accuracy-&gt;0.520000
+ Batch Loss-&gt;	     1.2524 || Batch Accuracy-&gt;0.525000
+ Validation Loss-&gt;     1.2973 || Validation Accuracy-&gt;0.526800
 
 
 Epoch  3, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     1.0953 || Batch Accuracy-&gt;0.675000
- Validation Loss-&gt;     1.3232 || Validation Accuracy-&gt;0.518200
+ Batch Loss-&gt;	     1.1180 || Batch Accuracy-&gt;0.575000
+ Validation Loss-&gt;     1.2734 || Validation Accuracy-&gt;0.530600
 
 
 Epoch  3, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     1.2273 || Batch Accuracy-&gt;0.575000
- Validation Loss-&gt;     1.3168 || Validation Accuracy-&gt;0.534400
+ Batch Loss-&gt;	     1.3298 || Batch Accuracy-&gt;0.500000
+ Validation Loss-&gt;     1.2483 || Validation Accuracy-&gt;0.543400
 
 
 Epoch  3, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     1.2298 || Batch Accuracy-&gt;0.625000
- Validation Loss-&gt;     1.2814 || Validation Accuracy-&gt;0.541600
+ Batch Loss-&gt;	     1.1694 || Batch Accuracy-&gt;0.600000
+ Validation Loss-&gt;     1.2728 || Validation Accuracy-&gt;0.547800
 
 
 Epoch  4, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.3432 || Batch Accuracy-&gt;0.575000
- Validation Loss-&gt;     1.2646 || Validation Accuracy-&gt;0.554400
+ Batch Loss-&gt;	     1.1337 || Batch Accuracy-&gt;0.675000
+ Validation Loss-&gt;     1.1808 || Validation Accuracy-&gt;0.585800
 
 
 Epoch  4, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     1.0808 || Batch Accuracy-&gt;0.525000
- Validation Loss-&gt;     1.2526 || Validation Accuracy-&gt;0.553400
+ Batch Loss-&gt;	     1.2203 || Batch Accuracy-&gt;0.500000
+ Validation Loss-&gt;     1.2383 || Validation Accuracy-&gt;0.561800
 
 
 Epoch  4, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.9638 || Batch Accuracy-&gt;0.725000
- Validation Loss-&gt;     1.2570 || Validation Accuracy-&gt;0.550800
+ Batch Loss-&gt;	     1.0199 || Batch Accuracy-&gt;0.575000
+ Validation Loss-&gt;     1.2498 || Validation Accuracy-&gt;0.558600
 
 
 Epoch  4, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     1.0824 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.2464 || Validation Accuracy-&gt;0.566800
+ Batch Loss-&gt;	     1.0895 || Batch Accuracy-&gt;0.600000
+ Validation Loss-&gt;     1.1467 || Validation Accuracy-&gt;0.590800
 
 
 Epoch  4, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     1.1358 || Batch Accuracy-&gt;0.600000
- Validation Loss-&gt;     1.2471 || Validation Accuracy-&gt;0.560200
+ Batch Loss-&gt;	     0.9619 || Batch Accuracy-&gt;0.700000
+ Validation Loss-&gt;     1.1428 || Validation Accuracy-&gt;0.593600
 
 
 Epoch  5, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.2074 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.2129 || Validation Accuracy-&gt;0.570600
+ Batch Loss-&gt;	     0.9364 || Batch Accuracy-&gt;0.675000
+ Validation Loss-&gt;     1.1054 || Validation Accuracy-&gt;0.609400
 
 
 Epoch  5, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.9578 || Batch Accuracy-&gt;0.625000
- Validation Loss-&gt;     1.2227 || Validation Accuracy-&gt;0.564600
+ Batch Loss-&gt;	     1.0292 || Batch Accuracy-&gt;0.575000
+ Validation Loss-&gt;     1.1067 || Validation Accuracy-&gt;0.614200
 
 
 Epoch  5, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.8433 || Batch Accuracy-&gt;0.725000
- Validation Loss-&gt;     1.2195 || Validation Accuracy-&gt;0.561200
+ Batch Loss-&gt;	     0.7765 || Batch Accuracy-&gt;0.775000
+ Validation Loss-&gt;     1.1112 || Validation Accuracy-&gt;0.607200
 
 
 Epoch  5, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.9671 || Batch Accuracy-&gt;0.675000
- Validation Loss-&gt;     1.2059 || Validation Accuracy-&gt;0.569000
+ Batch Loss-&gt;	     0.9289 || Batch Accuracy-&gt;0.675000
+ Validation Loss-&gt;     1.0776 || Validation Accuracy-&gt;0.614200
 
 
 Epoch  5, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     1.0632 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.1964 || Validation Accuracy-&gt;0.580600
+ Batch Loss-&gt;	     0.8740 || Batch Accuracy-&gt;0.750000
+ Validation Loss-&gt;     1.1011 || Validation Accuracy-&gt;0.610200
 
 
 Epoch  6, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.1165 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.1835 || Validation Accuracy-&gt;0.581200
+ Batch Loss-&gt;	     0.8552 || Batch Accuracy-&gt;0.650000
+ Validation Loss-&gt;     1.1097 || Validation Accuracy-&gt;0.605800
 
 
 Epoch  6, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.8824 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.1860 || Validation Accuracy-&gt;0.584400
+ Batch Loss-&gt;	     0.9065 || Batch Accuracy-&gt;0.650000
+ Validation Loss-&gt;     1.0476 || Validation Accuracy-&gt;0.620800
 
 
 Epoch  6, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.7173 || Batch Accuracy-&gt;0.825000
- Validation Loss-&gt;     1.1647 || Validation Accuracy-&gt;0.589200
+ Batch Loss-&gt;	     0.7204 || Batch Accuracy-&gt;0.775000
+ Validation Loss-&gt;     1.0991 || Validation Accuracy-&gt;0.614400
 
 
 Epoch  6, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.8324 || Batch Accuracy-&gt;0.750000
- Validation Loss-&gt;     1.1498 || Validation Accuracy-&gt;0.595600
+ Batch Loss-&gt;	     0.8411 || Batch Accuracy-&gt;0.750000
+ Validation Loss-&gt;     1.0469 || Validation Accuracy-&gt;0.624400
 
 
 Epoch  6, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.9304 || Batch Accuracy-&gt;0.725000
- Validation Loss-&gt;     1.1482 || Validation Accuracy-&gt;0.595200
+ Batch Loss-&gt;	     0.6677 || Batch Accuracy-&gt;0.800000
+ Validation Loss-&gt;     1.0318 || Validation Accuracy-&gt;0.641200
 
 
 Epoch  7, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.0843 || Batch Accuracy-&gt;0.625000
- Validation Loss-&gt;     1.1364 || Validation Accuracy-&gt;0.596000
+ Batch Loss-&gt;	     0.7667 || Batch Accuracy-&gt;0.700000
+ Validation Loss-&gt;     1.0304 || Validation Accuracy-&gt;0.640000
 
 
 Epoch  7, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.7776 || Batch Accuracy-&gt;0.700000
- Validation Loss-&gt;     1.1422 || Validation Accuracy-&gt;0.598600
+ Batch Loss-&gt;	     0.8137 || Batch Accuracy-&gt;0.750000
+ Validation Loss-&gt;     1.0403 || Validation Accuracy-&gt;0.642200
 
 
 Epoch  7, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.6447 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.1601 || Validation Accuracy-&gt;0.594800
+ Batch Loss-&gt;	     0.5703 || Batch Accuracy-&gt;0.850000
+ Validation Loss-&gt;     0.9900 || Validation Accuracy-&gt;0.655200
 
 
 Epoch  7, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.7375 || Batch Accuracy-&gt;0.775000
- Validation Loss-&gt;     1.1447 || Validation Accuracy-&gt;0.596400
+ Batch Loss-&gt;	     0.6888 || Batch Accuracy-&gt;0.725000
+ Validation Loss-&gt;     0.9861 || Validation Accuracy-&gt;0.652000
 
 
 Epoch  7, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.8416 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.1225 || Validation Accuracy-&gt;0.606800
+ Batch Loss-&gt;	     0.6013 || Batch Accuracy-&gt;0.850000
+ Validation Loss-&gt;     0.9878 || Validation Accuracy-&gt;0.654400
 
 
 Epoch  8, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     1.0230 || Batch Accuracy-&gt;0.650000
- Validation Loss-&gt;     1.1199 || Validation Accuracy-&gt;0.609400
+ Batch Loss-&gt;	     0.7182 || Batch Accuracy-&gt;0.775000
+ Validation Loss-&gt;     0.9619 || Validation Accuracy-&gt;0.663000
 
 
 Epoch  8, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.6768 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.1201 || Validation Accuracy-&gt;0.609800
+ Batch Loss-&gt;	     0.6833 || Batch Accuracy-&gt;0.725000
+ Validation Loss-&gt;     0.9642 || Validation Accuracy-&gt;0.661600
 
 
 Epoch  8, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.6215 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.1359 || Validation Accuracy-&gt;0.601400
+ Batch Loss-&gt;	     0.4577 || Batch Accuracy-&gt;0.900000
+ Validation Loss-&gt;     0.9600 || Validation Accuracy-&gt;0.668200
 
 
 Epoch  8, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.7146 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.1190 || Validation Accuracy-&gt;0.610400
+ Batch Loss-&gt;	     0.6170 || Batch Accuracy-&gt;0.775000
+ Validation Loss-&gt;     0.9717 || Validation Accuracy-&gt;0.667800
 
 
 Epoch  8, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.7634 || Batch Accuracy-&gt;0.750000
- Validation Loss-&gt;     1.1076 || Validation Accuracy-&gt;0.602000
+ Batch Loss-&gt;	     0.5078 || Batch Accuracy-&gt;0.875000
+ Validation Loss-&gt;     0.9638 || Validation Accuracy-&gt;0.665800
 
 
 Epoch  9, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.9886 || Batch Accuracy-&gt;0.700000
- Validation Loss-&gt;     1.1051 || Validation Accuracy-&gt;0.607200
+ Batch Loss-&gt;	     0.6627 || Batch Accuracy-&gt;0.800000
+ Validation Loss-&gt;     0.9690 || Validation Accuracy-&gt;0.663400
 
 
 Epoch  9, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.7147 || Batch Accuracy-&gt;0.775000
- Validation Loss-&gt;     1.1098 || Validation Accuracy-&gt;0.613800
+ Batch Loss-&gt;	     0.5537 || Batch Accuracy-&gt;0.800000
+ Validation Loss-&gt;     0.9572 || Validation Accuracy-&gt;0.662800
 
 
 Epoch  9, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.5667 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.1024 || Validation Accuracy-&gt;0.615600
+ Batch Loss-&gt;	     0.3712 || Batch Accuracy-&gt;0.925000
+ Validation Loss-&gt;     0.9878 || Validation Accuracy-&gt;0.665000
 
 
 Epoch  9, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.6103 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0816 || Validation Accuracy-&gt;0.623800
+ Batch Loss-&gt;	     0.5772 || Batch Accuracy-&gt;0.775000
+ Validation Loss-&gt;     0.9620 || Validation Accuracy-&gt;0.665400
 
 
 Epoch  9, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.6943 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0995 || Validation Accuracy-&gt;0.615400
+ Batch Loss-&gt;	     0.4575 || Batch Accuracy-&gt;0.875000
+ Validation Loss-&gt;     0.9390 || Validation Accuracy-&gt;0.678000
 
 
 Epoch 10, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.8979 || Batch Accuracy-&gt;0.700000
- Validation Loss-&gt;     1.0938 || Validation Accuracy-&gt;0.624200
+ Batch Loss-&gt;	     0.5194 || Batch Accuracy-&gt;0.825000
+ Validation Loss-&gt;     0.9829 || Validation Accuracy-&gt;0.667400
 
 
 Epoch 10, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.6131 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0769 || Validation Accuracy-&gt;0.628600
+ Batch Loss-&gt;	     0.4937 || Batch Accuracy-&gt;0.850000
+ Validation Loss-&gt;     0.9473 || Validation Accuracy-&gt;0.679200
 
 
 Epoch 10, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.4795 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.0714 || Validation Accuracy-&gt;0.629400
+ Batch Loss-&gt;	     0.3247 || Batch Accuracy-&gt;0.975000
+ Validation Loss-&gt;     0.9421 || Validation Accuracy-&gt;0.682600
 
 
 Epoch 10, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.5333 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.0569 || Validation Accuracy-&gt;0.634800
+ Batch Loss-&gt;	     0.4564 || Batch Accuracy-&gt;0.950000
+ Validation Loss-&gt;     0.9573 || Validation Accuracy-&gt;0.669400
 
 
 Epoch 10, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.6296 || Batch Accuracy-&gt;0.825000
- Validation Loss-&gt;     1.0804 || Validation Accuracy-&gt;0.620800
+ Batch Loss-&gt;	     0.3717 || Batch Accuracy-&gt;0.900000
+ Validation Loss-&gt;     0.9201 || Validation Accuracy-&gt;0.686200
 
 
 Epoch 11, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.8125 || Batch Accuracy-&gt;0.725000
- Validation Loss-&gt;     1.0494 || Validation Accuracy-&gt;0.635200
+ Batch Loss-&gt;	     0.4370 || Batch Accuracy-&gt;0.825000
+ Validation Loss-&gt;     0.9299 || Validation Accuracy-&gt;0.681800
 
 
 Epoch 11, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.5484 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.0613 || Validation Accuracy-&gt;0.635400
+ Batch Loss-&gt;	     0.4295 || Batch Accuracy-&gt;0.800000
+ Validation Loss-&gt;     0.9242 || Validation Accuracy-&gt;0.688800
 
 
 Epoch 11, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.4560 || Batch Accuracy-&gt;0.925000
- Validation Loss-&gt;     1.0787 || Validation Accuracy-&gt;0.622000
+ Batch Loss-&gt;	     0.2526 || Batch Accuracy-&gt;1.000000
+ Validation Loss-&gt;     0.9407 || Validation Accuracy-&gt;0.678000
 
 
 Epoch 11, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.5114 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.0600 || Validation Accuracy-&gt;0.636000
-
-
-Epoch 11, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.5561 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.0320 || Validation Accuracy-&gt;0.641600
-
-
-Epoch 12, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.7444 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0556 || Validation Accuracy-&gt;0.636000
-
-
-Epoch 12, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.5380 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.0545 || Validation Accuracy-&gt;0.639800
-
-
-Epoch 12, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.4017 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0346 || Validation Accuracy-&gt;0.638400
-
-
-Epoch 12, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.4844 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.0360 || Validation Accuracy-&gt;0.639600
-
-
-Epoch 12, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.5042 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.0311 || Validation Accuracy-&gt;0.642600
-
-
-Epoch 13, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.6643 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0370 || Validation Accuracy-&gt;0.645200
-
-
-Epoch 13, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.4496 || Batch Accuracy-&gt;0.850000
- Validation Loss-&gt;     1.0319 || Validation Accuracy-&gt;0.646200
-
-
-Epoch 13, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.3991 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0386 || Validation Accuracy-&gt;0.639000
-
-
-Epoch 13, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.4129 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     1.0168 || Validation Accuracy-&gt;0.644600
-
-
-Epoch 13, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.4757 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     1.0134 || Validation Accuracy-&gt;0.646600
-
-
-Epoch 14, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.6757 || Batch Accuracy-&gt;0.775000
- Validation Loss-&gt;     1.0389 || Validation Accuracy-&gt;0.637200
-
-
-Epoch 14, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.4181 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0164 || Validation Accuracy-&gt;0.648800
-
-
-Epoch 14, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.3594 || Batch Accuracy-&gt;0.925000
- Validation Loss-&gt;     1.0254 || Validation Accuracy-&gt;0.640600
-
-
-Epoch 14, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.4109 || Batch Accuracy-&gt;0.925000
- Validation Loss-&gt;     1.0150 || Validation Accuracy-&gt;0.652800
-
-
-Epoch 14, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.4093 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     1.0192 || Validation Accuracy-&gt;0.642800
-
-
-Epoch 15, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.5910 || Batch Accuracy-&gt;0.825000
- Validation Loss-&gt;     1.0650 || Validation Accuracy-&gt;0.632600
-
-
-Epoch 15, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.3658 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0155 || Validation Accuracy-&gt;0.649800
-
-
-Epoch 15, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.3223 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0281 || Validation Accuracy-&gt;0.651400
-
-
-Epoch 15, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.3426 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0180 || Validation Accuracy-&gt;0.651000
-
-
-Epoch 15, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.3926 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     1.0170 || Validation Accuracy-&gt;0.650000
-
-
-Epoch 16, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.5383 || Batch Accuracy-&gt;0.800000
- Validation Loss-&gt;     1.0050 || Validation Accuracy-&gt;0.650600
-
-
-Epoch 16, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.3493 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9918 || Validation Accuracy-&gt;0.652800
-
-
-Epoch 16, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.2807 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0034 || Validation Accuracy-&gt;0.658600
-
-
-Epoch 16, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.3210 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0000 || Validation Accuracy-&gt;0.652600
-
-
-Epoch 16, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.4433 || Batch Accuracy-&gt;0.875000
- Validation Loss-&gt;     1.0302 || Validation Accuracy-&gt;0.643600
-
-
-Epoch 17, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.4384 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     1.0113 || Validation Accuracy-&gt;0.650000
-
-
-Epoch 17, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.3407 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9945 || Validation Accuracy-&gt;0.658000
-
-
-Epoch 17, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.2592 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9999 || Validation Accuracy-&gt;0.658200
-
-
-Epoch 17, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.3073 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0000 || Validation Accuracy-&gt;0.650000
-
-
-Epoch 17, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.3163 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9943 || Validation Accuracy-&gt;0.657800
-
-
-Epoch 18, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.3918 || Batch Accuracy-&gt;0.900000
- Validation Loss-&gt;     0.9954 || Validation Accuracy-&gt;0.659400
-
-
-Epoch 18, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.3058 || Batch Accuracy-&gt;0.925000
- Validation Loss-&gt;     0.9789 || Validation Accuracy-&gt;0.661200
-
-
-Epoch 18, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.2443 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0003 || Validation Accuracy-&gt;0.657000
-
-
-Epoch 18, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.2799 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9913 || Validation Accuracy-&gt;0.657000
-
-
-Epoch 18, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.3057 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9861 || Validation Accuracy-&gt;0.660000
-
-
-Epoch 19, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.3799 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9886 || Validation Accuracy-&gt;0.656800
-
-
-Epoch 19, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.2530 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9820 || Validation Accuracy-&gt;0.655200
-
-
-Epoch 19, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.2327 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9811 || Validation Accuracy-&gt;0.663800
-
-
-Epoch 19, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.2524 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9836 || Validation Accuracy-&gt;0.660400
-
-
-Epoch 19, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2987 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0193 || Validation Accuracy-&gt;0.653800
-
-
-Epoch 20, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.3676 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0128 || Validation Accuracy-&gt;0.652400
-
-
-Epoch 20, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.2376 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9702 || Validation Accuracy-&gt;0.665000
-
-
-Epoch 20, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.2143 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0154 || Validation Accuracy-&gt;0.654000
-
-
-Epoch 20, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.2512 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9938 || Validation Accuracy-&gt;0.658000
-
-
-Epoch 20, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2863 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0349 || Validation Accuracy-&gt;0.647600
-
-
-Epoch 21, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.3211 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9892 || Validation Accuracy-&gt;0.662600
-
-
-Epoch 21, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.2194 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9712 || Validation Accuracy-&gt;0.667400
-
-
-Epoch 21, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1841 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0088 || Validation Accuracy-&gt;0.658000
-
-
-Epoch 21, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.2090 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9847 || Validation Accuracy-&gt;0.659800
-
-
-Epoch 21, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2147 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0060 || Validation Accuracy-&gt;0.653400
-
-
-Epoch 22, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.2764 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9877 || Validation Accuracy-&gt;0.658400
-
-
-Epoch 22, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.2319 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9786 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 22, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1654 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9934 || Validation Accuracy-&gt;0.665200
-
-
-Epoch 22, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1822 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9728 || Validation Accuracy-&gt;0.665600
-
-
-Epoch 22, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2244 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0067 || Validation Accuracy-&gt;0.658600
-
-
-Epoch 23, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.2675 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9738 || Validation Accuracy-&gt;0.666200
-
-
-Epoch 23, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1961 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9760 || Validation Accuracy-&gt;0.662400
-
-
-Epoch 23, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1536 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0111 || Validation Accuracy-&gt;0.657800
-
-
-Epoch 23, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1617 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9689 || Validation Accuracy-&gt;0.669400
-
-
-Epoch 23, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2127 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9865 || Validation Accuracy-&gt;0.663600
-
-
-Epoch 24, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.2524 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     1.0066 || Validation Accuracy-&gt;0.659000
-
-
-Epoch 24, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1771 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9861 || Validation Accuracy-&gt;0.662600
-
-
-Epoch 24, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1489 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9959 || Validation Accuracy-&gt;0.654000
-
-
-Epoch 24, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1283 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9685 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 24, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.2330 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9851 || Validation Accuracy-&gt;0.660400
-
-
-Epoch 25, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.2181 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9867 || Validation Accuracy-&gt;0.663200
-
-
-Epoch 25, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1413 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9637 || Validation Accuracy-&gt;0.671400
-
-
-Epoch 25, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1129 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9873 || Validation Accuracy-&gt;0.664000
-
-
-Epoch 25, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1285 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9883 || Validation Accuracy-&gt;0.663000
-
-
-Epoch 25, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1582 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9958 || Validation Accuracy-&gt;0.661200
-
-
-Epoch 26, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1943 || Batch Accuracy-&gt;0.950000
- Validation Loss-&gt;     0.9849 || Validation Accuracy-&gt;0.667000
-
-
-Epoch 26, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1439 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9773 || Validation Accuracy-&gt;0.665800
-
-
-Epoch 26, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1095 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9997 || Validation Accuracy-&gt;0.664400
-
-
-Epoch 26, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1272 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9743 || Validation Accuracy-&gt;0.668000
-
-
-Epoch 26, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1579 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9964 || Validation Accuracy-&gt;0.660600
-
-
-Epoch 27, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1753 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9906 || Validation Accuracy-&gt;0.663600
-
-
-Epoch 27, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1424 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9878 || Validation Accuracy-&gt;0.664600
-
-
-Epoch 27, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1075 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9905 || Validation Accuracy-&gt;0.664000
-
-
-Epoch 27, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.1219 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0213 || Validation Accuracy-&gt;0.654800
-
-
-Epoch 27, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1437 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9932 || Validation Accuracy-&gt;0.661200
-
-
-Epoch 28, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1612 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     0.9982 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 28, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1382 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9723 || Validation Accuracy-&gt;0.664800
-
-
-Epoch 28, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.1088 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0298 || Validation Accuracy-&gt;0.659600
-
-
-Epoch 28, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0865 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9984 || Validation Accuracy-&gt;0.668000
-
-
-Epoch 28, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1235 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9960 || Validation Accuracy-&gt;0.670800
-
-
-Epoch 29, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1481 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0055 || Validation Accuracy-&gt;0.670400
-
-
-Epoch 29, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.1213 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9794 || Validation Accuracy-&gt;0.666400
-
-
-Epoch 29, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0977 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0102 || Validation Accuracy-&gt;0.662600
-
-
-Epoch 29, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0796 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9747 || Validation Accuracy-&gt;0.676600
-
-
-Epoch 29, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1244 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9871 || Validation Accuracy-&gt;0.666000
-
-
-Epoch 30, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1189 || Batch Accuracy-&gt;0.975000
- Validation Loss-&gt;     1.0003 || Validation Accuracy-&gt;0.669800
-
-
-Epoch 30, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0969 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9717 || Validation Accuracy-&gt;0.668600
-
-
-Epoch 30, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0890 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0212 || Validation Accuracy-&gt;0.661000
-
-
-Epoch 30, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0964 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0395 || Validation Accuracy-&gt;0.654000
-
-
-Epoch 30, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1408 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0122 || Validation Accuracy-&gt;0.659800
-
-
-Epoch 31, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1106 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0053 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 31, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0981 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9865 || Validation Accuracy-&gt;0.667000
-
-
-Epoch 31, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0806 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0131 || Validation Accuracy-&gt;0.664200
-
-
-Epoch 31, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0840 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0340 || Validation Accuracy-&gt;0.655000
-
-
-Epoch 31, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1066 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0112 || Validation Accuracy-&gt;0.664400
-
-
-Epoch 32, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.1054 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0337 || Validation Accuracy-&gt;0.656000
-
-
-Epoch 32, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0756 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0022 || Validation Accuracy-&gt;0.664400
-
-
-Epoch 32, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0829 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0111 || Validation Accuracy-&gt;0.663800
-
-
-Epoch 32, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0716 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9933 || Validation Accuracy-&gt;0.665200
-
-
-Epoch 32, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0881 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9967 || Validation Accuracy-&gt;0.670000
-
-
-Epoch 33, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0934 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0408 || Validation Accuracy-&gt;0.660800
-
-
-Epoch 33, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0688 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     0.9907 || Validation Accuracy-&gt;0.666000
-
-
-Epoch 33, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0787 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0279 || Validation Accuracy-&gt;0.662800
-
-
-Epoch 33, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0551 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0028 || Validation Accuracy-&gt;0.667400
-
-
-Epoch 33, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.1049 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0198 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 34, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0924 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0203 || Validation Accuracy-&gt;0.667400
-
-
-Epoch 34, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0817 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0202 || Validation Accuracy-&gt;0.668400
-
-
-Epoch 34, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0715 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0307 || Validation Accuracy-&gt;0.660800
-
-
-Epoch 34, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0507 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0078 || Validation Accuracy-&gt;0.670800
-
-
-Epoch 34, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0945 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0008 || Validation Accuracy-&gt;0.670400
-
-
-Epoch 35, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0682 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0750 || Validation Accuracy-&gt;0.659400
-
-
-Epoch 35, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0540 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0037 || Validation Accuracy-&gt;0.664600
-
-
-Epoch 35, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0642 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0315 || Validation Accuracy-&gt;0.662200
-
-
-Epoch 35, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0390 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0184 || Validation Accuracy-&gt;0.672600
-
-
-Epoch 35, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0762 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0201 || Validation Accuracy-&gt;0.666600
-
-
-Epoch 36, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0633 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0555 || Validation Accuracy-&gt;0.666200
-
-
-Epoch 36, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0692 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0193 || Validation Accuracy-&gt;0.665000
-
-
-Epoch 36, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0673 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0308 || Validation Accuracy-&gt;0.663400
-
-
-Epoch 36, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0361 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0221 || Validation Accuracy-&gt;0.668800
-
-
-Epoch 36, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0726 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0094 || Validation Accuracy-&gt;0.668000
-
-
-Epoch 37, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0681 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0780 || Validation Accuracy-&gt;0.659800
-
-
-Epoch 37, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0577 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0073 || Validation Accuracy-&gt;0.665600
-
-
-Epoch 37, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0620 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0516 || Validation Accuracy-&gt;0.663200
-
-
-Epoch 37, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0500 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0455 || Validation Accuracy-&gt;0.663600
-
-
-Epoch 37, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0853 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0077 || Validation Accuracy-&gt;0.669000
-
-
-Epoch 38, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0678 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0307 || Validation Accuracy-&gt;0.661200
-
-
-Epoch 38, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0593 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0111 || Validation Accuracy-&gt;0.668600
-
-
-Epoch 38, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0425 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0455 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 38, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0290 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0322 || Validation Accuracy-&gt;0.668200
-
-
-Epoch 38, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0665 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0283 || Validation Accuracy-&gt;0.669200
-
-
-Epoch 39, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0580 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0703 || Validation Accuracy-&gt;0.664000
-
-
-Epoch 39, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0527 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0275 || Validation Accuracy-&gt;0.659400
-
-
-Epoch 39, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0510 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0357 || Validation Accuracy-&gt;0.665200
-
-
-Epoch 39, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0316 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0298 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 39, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0625 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0441 || Validation Accuracy-&gt;0.667200
-
-
-Epoch 40, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0858 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0892 || Validation Accuracy-&gt;0.654200
-
-
-Epoch 40, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0429 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0224 || Validation Accuracy-&gt;0.673000
-
-
-Epoch 40, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0604 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0717 || Validation Accuracy-&gt;0.661400
-
-
-Epoch 40, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0304 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0547 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 40, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0652 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0329 || Validation Accuracy-&gt;0.658800
-
-
-Epoch 41, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0391 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0534 || Validation Accuracy-&gt;0.668600
-
-
-Epoch 41, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0375 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0403 || Validation Accuracy-&gt;0.667000
-
-
-Epoch 41, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0368 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0710 || Validation Accuracy-&gt;0.664000
-
-
-Epoch 41, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0283 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0577 || Validation Accuracy-&gt;0.665400
-
-
-Epoch 41, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0463 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0455 || Validation Accuracy-&gt;0.664800
-
-
-Epoch 42, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0442 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0496 || Validation Accuracy-&gt;0.666000
-
-
-Epoch 42, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0302 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0494 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 42, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0357 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0604 || Validation Accuracy-&gt;0.661800
-
-
-Epoch 42, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0307 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0630 || Validation Accuracy-&gt;0.656400
-
-
-Epoch 42, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0558 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0747 || Validation Accuracy-&gt;0.666400
-
-
-Epoch 43, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0460 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1009 || Validation Accuracy-&gt;0.654600
-
-
-Epoch 43, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0310 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0357 || Validation Accuracy-&gt;0.670000
-
-
-Epoch 43, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0424 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0487 || Validation Accuracy-&gt;0.662800
-
-
-Epoch 43, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0298 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0722 || Validation Accuracy-&gt;0.671800
-
-
-Epoch 43, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0510 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0662 || Validation Accuracy-&gt;0.668800
-
-
-Epoch 44, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0504 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0762 || Validation Accuracy-&gt;0.664600
-
-
-Epoch 44, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0366 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0522 || Validation Accuracy-&gt;0.672000
-
-
-Epoch 44, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0323 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0554 || Validation Accuracy-&gt;0.667000
-
-
-Epoch 44, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0210 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0539 || Validation Accuracy-&gt;0.672400
-
-
-Epoch 44, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0631 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0776 || Validation Accuracy-&gt;0.668400
-
-
-Epoch 45, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0426 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0813 || Validation Accuracy-&gt;0.665000
-
-
-Epoch 45, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0306 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0867 || Validation Accuracy-&gt;0.661000
-
-
-Epoch 45, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0357 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0853 || Validation Accuracy-&gt;0.666200
-
-
-Epoch 45, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0214 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0717 || Validation Accuracy-&gt;0.669800
-
-
-Epoch 45, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0445 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1190 || Validation Accuracy-&gt;0.661600
-
-
-Epoch 46, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0425 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0717 || Validation Accuracy-&gt;0.669400
-
-
-Epoch 46, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0275 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0474 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 46, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0292 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0600 || Validation Accuracy-&gt;0.669200
-
-
-Epoch 46, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0192 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0735 || Validation Accuracy-&gt;0.669000
-
-
-Epoch 46, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0400 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0730 || Validation Accuracy-&gt;0.674600
-
-
-Epoch 47, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0359 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1015 || Validation Accuracy-&gt;0.659000
-
-
-Epoch 47, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0277 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0617 || Validation Accuracy-&gt;0.667000
-
-
-Epoch 47, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0320 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0802 || Validation Accuracy-&gt;0.665200
-
-
-Epoch 47, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0222 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0906 || Validation Accuracy-&gt;0.667800
-
-
-Epoch 47, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0500 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0859 || Validation Accuracy-&gt;0.663800
-
-
-Epoch 48, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0248 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1022 || Validation Accuracy-&gt;0.662800
-
-
-Epoch 48, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0253 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0702 || Validation Accuracy-&gt;0.664400
-
-
-Epoch 48, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0277 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0897 || Validation Accuracy-&gt;0.662800
-
-
-Epoch 48, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0250 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0945 || Validation Accuracy-&gt;0.661400
-
-
-Epoch 48, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0442 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0755 || Validation Accuracy-&gt;0.671800
-
-
-Epoch 49, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0248 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1116 || Validation Accuracy-&gt;0.663800
-
-
-Epoch 49, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0187 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0524 || Validation Accuracy-&gt;0.662600
-
-
-Epoch 49, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0269 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0803 || Validation Accuracy-&gt;0.669800
-
-
-Epoch 49, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0168 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0678 || Validation Accuracy-&gt;0.667600
-
-
-Epoch 49, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0372 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0824 || Validation Accuracy-&gt;0.666800
-
-
-Epoch 50, CIFAR-10 Batch 1:  
- Batch Loss-&gt;	     0.0248 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1124 || Validation Accuracy-&gt;0.664600
-
-
-Epoch 50, CIFAR-10 Batch 2:  
- Batch Loss-&gt;	     0.0285 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0528 || Validation Accuracy-&gt;0.665200
-
-
-Epoch 50, CIFAR-10 Batch 3:  
- Batch Loss-&gt;	     0.0303 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.1024 || Validation Accuracy-&gt;0.660800
-
-
-Epoch 50, CIFAR-10 Batch 4:  
- Batch Loss-&gt;	     0.0141 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0951 || Validation Accuracy-&gt;0.664600
-
-
-Epoch 50, CIFAR-10 Batch 5:  
- Batch Loss-&gt;	     0.0348 || Batch Accuracy-&gt;1.000000
- Validation Loss-&gt;     1.0927 || Validation Accuracy-&gt;0.671800
+ Batch Loss-&gt;	     0.3848 || Batch Accuracy-&gt;0.875000
+ Validation Loss-&gt;     0.9671 || Validation Accuracy-&gt;0.667200
 
 
 </pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-16-dbe048cbe404&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-fg">     16</span>             <span class="ansi-green-intense-fg ansi-bold">for</span> batch_features<span class="ansi-yellow-intense-fg ansi-bold">,</span> batch_labels <span class="ansi-green-intense-fg ansi-bold">in</span> helper<span class="ansi-yellow-intense-fg ansi-bold">.</span>load_preprocess_training_batch<span class="ansi-yellow-intense-fg ansi-bold">(</span>batch_i<span class="ansi-yellow-intense-fg ansi-bold">,</span> batch_size<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">     17</span>                 <span class="ansi-red-intense-fg ansi-bold">#train_neural_network(sess, optimizer, keep_probability, batch_features, batch_labels)</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 18</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>_<span class="ansi-yellow-intense-fg ansi-bold">,</span> _<span class="ansi-yellow-intense-fg ansi-bold">,</span> tb_summary<span class="ansi-yellow-intense-fg ansi-bold">=</span>train_neural_network<span class="ansi-yellow-intense-fg ansi-bold">(</span>sess<span class="ansi-yellow-intense-fg ansi-bold">,</span> optimizer<span class="ansi-yellow-intense-fg ansi-bold">,</span> keep_probability<span class="ansi-yellow-intense-fg ansi-bold">,</span> batch_features<span class="ansi-yellow-intense-fg ansi-bold">,</span> batch_labels<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     19</span> 
+<span class="ansi-green-fg">     20</span>             <span class="ansi-red-intense-fg ansi-bold">#tensorboard</span>
+
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-8-20bfff74bf50&gt;</span> in <span class="ansi-cyan-fg">train_neural_network</span><span class="ansi-blue-intense-fg ansi-bold">(session, optimizer, keep_probability, feature_batch, label_batch)</span>
+<span class="ansi-green-fg">     11</span>     <span class="ansi-red-intense-fg ansi-bold">#return session.run(optimizer, feed_dict={x:feature_batch,y:label_batch,keep_prob:keep_probability})</span>
+<span class="ansi-green-fg">     12</span>     <span class="ansi-red-intense-fg ansi-bold">#return session.run([optimizer,cost], feed_dict={x:feature_batch,y:label_batch,keep_prob:keep_probability})</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 13</span><span class="ansi-yellow-intense-fg ansi-bold">     </span><span class="ansi-green-intense-fg ansi-bold">return</span> session<span class="ansi-yellow-intense-fg ansi-bold">.</span>run<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">[</span>optimizer<span class="ansi-yellow-intense-fg ansi-bold">,</span>cost<span class="ansi-yellow-intense-fg ansi-bold">,</span> merged_summary<span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> feed_dict<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-yellow-intense-fg ansi-bold">{</span>x<span class="ansi-yellow-intense-fg ansi-bold">:</span>feature_batch<span class="ansi-yellow-intense-fg ansi-bold">,</span>y<span class="ansi-yellow-intense-fg ansi-bold">:</span>label_batch<span class="ansi-yellow-intense-fg ansi-bold">,</span>keep_prob<span class="ansi-yellow-intense-fg ansi-bold">:</span>keep_probability<span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     14</span> 
+<span class="ansi-green-fg">     15</span> &#34;&#34;&#34;
+
+<span class="ansi-green-intense-fg ansi-bold">C:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\client\session.py</span> in <span class="ansi-cyan-fg">run</span><span class="ansi-blue-intense-fg ansi-bold">(self, fetches, feed_dict, options, run_metadata)</span>
+<span class="ansi-green-fg">    776</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    777</span>       result = self._run(None, fetches, feed_dict, options_ptr,
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 778</span><span class="ansi-yellow-intense-fg ansi-bold">                          run_metadata_ptr)
+</span><span class="ansi-green-fg">    779</span>       <span class="ansi-green-intense-fg ansi-bold">if</span> run_metadata<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    780</span>         proto_data <span class="ansi-yellow-intense-fg ansi-bold">=</span> tf_session<span class="ansi-yellow-intense-fg ansi-bold">.</span>TF_GetBuffer<span class="ansi-yellow-intense-fg ansi-bold">(</span>run_metadata_ptr<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">C:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\client\session.py</span> in <span class="ansi-cyan-fg">_run</span><span class="ansi-blue-intense-fg ansi-bold">(self, handle, fetches, feed_dict, options, run_metadata)</span>
+<span class="ansi-green-fg">    980</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> final_fetches <span class="ansi-green-intense-fg ansi-bold">or</span> final_targets<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    981</span>       results = self._do_run(handle, final_targets, final_fetches,
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 982</span><span class="ansi-yellow-intense-fg ansi-bold">                              feed_dict_string, options, run_metadata)
+</span><span class="ansi-green-fg">    983</span>     <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    984</span>       results <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
+
+<span class="ansi-green-intense-fg ansi-bold">C:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\client\session.py</span> in <span class="ansi-cyan-fg">_do_run</span><span class="ansi-blue-intense-fg ansi-bold">(self, handle, target_list, fetch_list, feed_dict, options, run_metadata)</span>
+<span class="ansi-green-fg">   1030</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> handle <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1031</span>       return self._do_call(_run_fn, self._session, feed_dict, fetch_list,
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1032</span><span class="ansi-yellow-intense-fg ansi-bold">                            target_list, options, run_metadata)
+</span><span class="ansi-green-fg">   1033</span>     <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1034</span>       return self._do_call(_prun_fn, self._session, handle, feed_dict,
+
+<span class="ansi-green-intense-fg ansi-bold">C:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\client\session.py</span> in <span class="ansi-cyan-fg">_do_call</span><span class="ansi-blue-intense-fg ansi-bold">(self, fn, *args)</span>
+<span class="ansi-green-fg">   1037</span>   <span class="ansi-green-intense-fg ansi-bold">def</span> _do_call<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> fn<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1038</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1039</span><span class="ansi-yellow-intense-fg ansi-bold">       </span><span class="ansi-green-intense-fg ansi-bold">return</span> fn<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1040</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> errors<span class="ansi-yellow-intense-fg ansi-bold">.</span>OpError <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1041</span>       message <span class="ansi-yellow-intense-fg ansi-bold">=</span> compat<span class="ansi-yellow-intense-fg ansi-bold">.</span>as_text<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">.</span>message<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">C:\Anaconda3\envs\tf_gpu\lib\site-packages\tensorflow\python\client\session.py</span> in <span class="ansi-cyan-fg">_run_fn</span><span class="ansi-blue-intense-fg ansi-bold">(session, feed_dict, fetch_list, target_list, options, run_metadata)</span>
+<span class="ansi-green-fg">   1019</span>         return tf_session.TF_Run(session, options,
+<span class="ansi-green-fg">   1020</span>                                  feed_dict<span class="ansi-yellow-intense-fg ansi-bold">,</span> fetch_list<span class="ansi-yellow-intense-fg ansi-bold">,</span> target_list<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1021</span><span class="ansi-yellow-intense-fg ansi-bold">                                  status, run_metadata)
+</span><span class="ansi-green-fg">   1022</span> 
+<span class="ansi-green-fg">   1023</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _prun_fn<span class="ansi-yellow-intense-fg ansi-bold">(</span>session<span class="ansi-yellow-intense-fg ansi-bold">,</span> handle<span class="ansi-yellow-intense-fg ansi-bold">,</span> feed_dict<span class="ansi-yellow-intense-fg ansi-bold">,</span> fetch_list<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
 </div>
 </div>
 
@@ -14376,7 +13442,7 @@ Epoch 50, CIFAR-10 Batch 5:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14472,12 +13538,12 @@ Epoch 50, CIFAR-10 Batch 5:
 <pre>
 <span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
 <span class="ansi-red-intense-fg ansi-bold">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-19-5942ba961321&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-17-5942ba961321&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
 <span class="ansi-green-fg">     61</span> 
 <span class="ansi-green-fg">     62</span> 
 <span class="ansi-green-intense-fg ansi-bold">---&gt; 63</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>test_model<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
 
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-19-5942ba961321&gt;</span> in <span class="ansi-cyan-fg">test_model</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-17-5942ba961321&gt;</span> in <span class="ansi-cyan-fg">test_model</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
 <span class="ansi-green-fg">     35</span> 
 <span class="ansi-green-fg">     36</span>         <span class="ansi-red-intense-fg ansi-bold"># Get Tensors from loaded model</span>
 <span class="ansi-green-intense-fg ansi-bold">---&gt; 37</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>loaded_x <span class="ansi-yellow-intense-fg ansi-bold">=</span> loaded_graph<span class="ansi-yellow-intense-fg ansi-bold">.</span>get_tensor_by_name<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;x:0&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
